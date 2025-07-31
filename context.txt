@@ -1,0 +1,143 @@
+⚽ Friday Champions League – Advanced Website Blueprint
+🎯 Project Vision
+The Friday Champions League (FCL) website will be a sleek, modern, and mobile-friendly digital hub for managing and showcasing an elite amateur football tournament. It will offer fans and participants rich, up-to-date insights into teams, players, fixtures, and rankings — while keeping content editing exclusive to admin users through a secure backend panel.
+
+🔐 USER ACCESS & CONTROL
+👤 User Roles
+Admin (Private Access)
+
+Secure login via hidden /admin route
+
+Full control of tournament content:
+
+Add/edit teams, players, stats
+
+Publish match results and schedules
+
+Update rankings and MVPs
+
+Upload media (optional: photos, highlights)
+
+Public Users (View-Only Access)
+
+No sign-up or login features
+
+Can browse:
+
+Team profiles
+
+Player stats
+
+Match fixtures and results
+
+Real-time rankings and leaderboards
+
+📊 FEATURES & STATISTICS
+👥 Team Profiles
+Team name, logo, captain
+
+Squad list with clickable player profiles
+
+Match history and form (W/D/L)
+
+Total Cups Won
+
+Team-level stats:
+
+Matches Played
+
+Wins, Draws, Losses
+
+Goals For / Against
+
+Goal Difference
+
+Current Points
+
+🧍‍♂️ Player Profiles
+Name, jersey number, position
+
+Matches Played
+
+Goals
+
+Assists
+
+Cards (Yellow/Red)
+
+MVP Awards
+
+Auto-linked to team and match performance
+
+🏆 Live Leaderboards
+Auto-sorted by Points → Goal Difference → Goals Scored
+
+Visual indicators for:
+
+Champions League zone
+
+Elimination zone (if applicable)
+
+Top Scorers and Top Assisters table
+
+MVP leaderboard with dynamic badge system
+
+🗓️ MATCH MANAGEMENT
+📅 Upcoming Fixtures
+Clean card-style display
+
+Info: Team names, date & time, venue
+
+Optional: countdown timer to kickoff
+
+🕹️ Past Matches
+Result cards with:
+
+Final score
+
+Goal scorers & cards
+
+MVP of the match
+
+Match summary or key moments (optional)
+
+🖼️ UI/UX & DESIGN
+🎨 Style & Branding
+Inspired by English Premier League and UEFA Champions League
+
+Responsive, mobile-first layout
+
+Hover animations, cards, modern typography
+
+Fully Tailwind CSS-powered theme
+
+Dark Mode with smooth toggle
+
+🎨 Brand Integration
+Tournament logo and branding throughout
+
+Color palette dynamically pulled from logo
+
+Optional: Favicon and social sharing preview support
+
+⚙️ TECHNICAL ARCHITECTURE
+🧰 Stack
+Frontend: HTML5, Tailwind CSS, Alpine.js or Vanilla JS
+
+Backend: PHP (with optional Laravel for modularity & security)
+
+Database: MySQL
+
+Admin Panel: Custom-built or Laravel Breeze/Auth
+
+APIs: Internal RESTful endpoints for clean data management
+
+🔐 Security
+Secure Admin Auth (hashed passwords, CSRF tokens)
+
+Rate-limited login attempts
+
+Hidden login route
+
+Input validation and sanitization
+
